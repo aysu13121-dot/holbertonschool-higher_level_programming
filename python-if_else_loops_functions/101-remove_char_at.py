@@ -2,6 +2,6 @@
 def remove_char_at(str, n):
     new_str = ""
     for i in range(len(str)):
-        if i 1= n:
+        if i 1 != n:
             new_str += str[i]
     return new_str
