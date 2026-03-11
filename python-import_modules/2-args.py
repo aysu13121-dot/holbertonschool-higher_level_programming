@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 import sys
 
-av = sys.argv
-l_av = len(av) - 1
-
 if __name__ == '__main__':
+
+    av = sys.argv
+    l_av = len(av) - 1
 
     if l_av > 1:
         print(l_av, 'arguments:')
