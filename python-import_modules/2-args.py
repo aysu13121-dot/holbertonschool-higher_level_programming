@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 
+av = sys.argv
+l_av = len(av) - 1
+
 if __name__ == '__main__':
 
     if l_av > 1:
