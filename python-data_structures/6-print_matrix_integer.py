@@ -3,7 +3,7 @@
 def  print_matrix_integer(matrix=[[]]):
 
     for item in matrix:
-        counter = 0:
+        counter = 0
         for subitem in item:
             if counter < len(item) - 1:
                 print("{:d}".format(subitem), end=" ")
