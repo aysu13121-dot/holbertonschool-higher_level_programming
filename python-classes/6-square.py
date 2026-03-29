@@ -36,7 +36,7 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         if not all(isinstance(num, int) for num in value):
             raise (TypeError("position must be a tuple of 2 positive integers")
-        if bo all(num >= 0 for num in value):
+        if not all(num >= 0 for num in value):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
@@ -45,7 +45,7 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the square at the posdition given by position."""
+        """Print the square at the position given by position."""
         if self.__size == 0:
             print()
             return
