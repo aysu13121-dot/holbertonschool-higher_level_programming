@@ -31,7 +31,7 @@ class Square:
 
     @position.setter
     def position(self, value):
-        """Sets th eposition of the square"""
+        """Sets the position of the square"""
         if (not isinstance(value, tuple) or len(value) != 2 or
                 not isinstance(value[0], int) or
                 not isinstance(value[1], int) or
@@ -44,7 +44,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Print the square with # characters"""
+        """Prints the square with # characters"""
         if self.__size == 0:
             print("")
         else:
