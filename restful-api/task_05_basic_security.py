@@ -1,5 +1,4 @@
-#!/usr/bin/pyy
-thon3
+#!/usr/bin/python3
 """Flask API server with authentication and authorization capabilities
 Implements both Basic Auth and JWT token-based authentication"""
 
